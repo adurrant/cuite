@@ -122,6 +122,13 @@ namespace CUITe.Controls
         {
             sourceControl.WaitForControlReady();
         }
+        /// <summary>
+        /// Checks to see if the control has focus
+        /// </summary>
+        public bool HasFocus
+        {
+            get { return sourceControl.HasFocus; }
+        }
 
         /// <summary>
         /// Waits for the control to be ready and attempts to set focus.

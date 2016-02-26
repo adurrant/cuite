@@ -27,7 +27,6 @@ namespace CUITe.Controls.WpfControls
             : base(sourceControl, searchConfiguration)
         {
         }
-
         /// <summary>
         /// Gets a value that indicates whether this window must always be on top.
         /// </summary>
